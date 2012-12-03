@@ -1,0 +1,18 @@
+!!!
+%html{html_attrs}
+    %head
+    %meta{:'http-equiv' => "Content-Type", :content => "text/html; charset=utf-8"}
+    %meta{:name => "lang", :content => "en"}
+    %title Shot Tracker
+    %link{:href=>'/views/stylesheets/styles.css', :rel => 'stylesheet', :type => "text/css"}
+    %script{:type => "text/javascript", :src => "http://code.jquery.com/jquery-1.5.min.js"}
+    /%script{:type => "text/javascript", :src => "/javascripts/lib/modernizr-1.6.min.js"}
+
+
+    %body
+        %div.navbar.navbar-static-top
+            %div.navbar-inner
+                %a{:href => "/", :class => "brand"} sinatra-parse-bootstrap
+    = yield
+
+    %script{:type => "text/javascript", :src => "/javascripts/scripts.js"}

@@ -9,7 +9,7 @@ require 'compass'
 require 'bootstrap-sass'
 
 configure do
-	ParseResource::Base.load!("Na5kjt6hnLdcVmA8Q5HO7yHkqJtI2fbCyWZukHay", "8awTOQlMlwqAz6eO7KsjrcKK1v6HQWKX84yTuOaf")
+	ParseResource::Base.load!("key", "key")
 	
 	Compass.configuration do |config|
 		config.project_path = File.dirname(__FILE__)
